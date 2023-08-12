@@ -4,13 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EBAC - Landing Page EBAC</title>
+        <title>EBACLO</title>
         <link rel="icon" type="image/x-icon" href="./resources/favicon.ico">
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -20,8 +19,8 @@
     <body>
         <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
             <div class= "container">
-                <h1 class="navbar-brand m-0 section-title">
-                    Nome do restaurante
+                <h1 class="navbar-brand m-0 section-title fs-3">
+                    EBACLO
                 </h1>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                     <span class="navbar-toggler-icon"></span>
@@ -30,26 +29,22 @@
                     <ul class="nav nav-pills d-block d-md-flex">
                         <li class="nav-item fw-bold">
                             <a href="#sobre" class="nav-link">
-                                <i class="bi bi-house-door me-1"></i>
-                                Sobre o restaurante
+                                Loja
                             </a>
                         </li>
                         <li class="nav-item fw-bold">
-                            <a href="#eventos" class="nav-link">
-                                <i class="bi bi-calendar-check me-1"></i>
-                                Eventos
+                            <a href="#processo" class="nav-link">
+                                Processo
                             </a>
                         </li>
                         <li class="nav-item fw-bold">
-                            <a href="#cardapio" class="nav-link">
-                                <i class="bi bi-card-text me-1"></i>
-                                Nosso cardápio
+                            <a href="#artigos" class="nav-link">
+                                Artigos
                             </a>
                         </li>
                         <li class="nav-item fw-bold">
-                            <a href="#contato" class="nav-link">
-                                <i class="bi bi-chat-left-text me-1"></i>
-                                Fale conosco
+                            <a href="#pedidos" class="nav-link">
+                                Pedido
                             </a>
                         </li>
                     </ul>
@@ -61,13 +56,13 @@
                 <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="resources/images/slides/slide1.png" class="object-fit-cover w-100" alt="Foto do espaço interno">
+                            <img src="resources/images/hero/hero1.png" class="object-fit-cover w-100" alt="Relógio">
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="resources/images/slides/slide2.png" class="object-fit-cover w-100" alt="Taças de Vinho">
+                            <img src="resources/images/hero/hero2.png" class="object-fit-cover w-100" alt="Artigos Masculinos">
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="resources/images/slides/slide3.png" class="object-fit-cover w-100" alt="Mesa com Comida">
+                            <img src="resources/images/hero/hero3.png" class="object-fit-cover w-100" alt="Artigos Femininos">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -82,18 +77,18 @@
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                     </div>
                 </div>
-                <div class="py-5">
+                <div class="border-white py-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5 mb-3">
-                                <img src="resources/images/restaurante.jpg" class="d-block w-100 rounded" alt="Foto do restaurante">
+                                <img src="resources/images/loja.png" class="d-block w-100 rounded" alt="Loja Matriz">
                             </div>
                             <div class="col-md-7">
-                                <h2 class="section-title">Sobre <span class="text-colored">o Restaurante</span></h2>
+                                <h2 class="section-title">Processo <span class="text-colored">Milenar</span></h2>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cupiditate eligendi ipsum, enim fugiat esse modi temporibus harum incidunt earum odit quos reprehenderit exercitationem ut rem laborum optio sequi. Et?
                                 </p>
-                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <h3 class="section-title pt-4">Artigos <span class="text-colored">ùnicos</span></h3>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sequi quos earum vero, quod distinctio alias iure obcaecati id. Ducimus labore laudantium nisi aut dolorem facere corrupti voluptatum quibusdam? Aliquid.
                                 </p>
@@ -107,38 +102,43 @@
                     </div>
                 </div>
             </section>
-            <section id="eventos" class="py-5">
+            <section id="processo" class="py-5">
                 <div class="container">
                     <div class="row">
-                        <h2 class="section-title text-center pb-4">
-                            Para todas <span class="text-colored">as ocasiões</span>
-                        </h2>
+                        <div class="py-4">
+                            <h2 class="section-title text-center p-0">
+                                Desde <span class="text-colored">1987</span>
+                            </h2>
+                            <p class="w-100 text-center pb-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="resources/images/eventos/aniversario.jpg" alt="Aniversário" class="d-block rounded w-100">
+                                <img src="resources/images/processo/makingof1.png" alt="Processo" class="d-block rounded w-100">
                                 <h3 class="section-title text-colored pt-3 pb-2 fs-4">
-                                    <i class="bi bi-calendar-heart-fill"></i>
-                                    Aniversários
+                                    <i class="bi bi-clock"></i>
+                                    Relojoaria Ancestral
                                 </h3>
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloribus reiciendis incidunt est consequatur delectus odio, illo vel fugit saepe reprehenderit sapiente aperiam enim, accusantium optio consectetur quae corporis sint.
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <img src="resources/images/eventos/casamento.jpg" alt="Aniversário" class="d-block rounded w-100">
+                                <img src="resources/images/processo/makingof2.png" alt="Cultura" class="d-block rounded w-100">
                                 <h3 class="section-title text-colored pt-3 pb-2 fs-4">
-                                    <i class="bi bi-arrow-through-heart-fill"></i>
-                                    Recepção para Casamento
+                                    <i class="bi bi-gem"></i>
+                                    Artesanato Geracional
                                 </h3>
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloribus reiciendis incidunt est consequatur delectus odio, illo vel fugit saepe reprehenderit sapiente aperiam enim, accusantium optio consectetur quae corporis sint.
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <img src="resources/images/eventos/confraternizacoes.jpg" alt="Aniversário" class="d-block rounded w-100">
+                                <img src="resources/images/oculos/2.png" alt="Produto" class="d-block rounded w-100">
                                 <h3 class="section-title text-colored pt-3 pb-2 fs-4">
-                                    <i class="bi bi-people-fill"></i>
-                                    Confraternizacoes
+                                    <i class="bi bi-people"></i>
+                                    Artigos Exclusivos
                                 </h3>
                                 <p>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam doloribus reiciendis incidunt est consequatur delectus odio, illo vel fugit saepe reprehenderit sapiente aperiam enim, accusantium optio consectetur quae corporis sint.
@@ -148,205 +148,120 @@
                     </div>
                 </div>
             </section>
-            <section id="cardapio" class="py-5">
+            <section id="artigos" class="py-5 border-white">
                 <div class="container">
-                    <div class="row">
-                        <h2 class="section-title text-center">
-                            Nosso <span class="text-colored">Cardápio</span>
+                    <div class="row py-4">
+                        <h2 class="section-title text-center pb-4">
+                            <span class="text-colored">Artigos</span>
                         </h2>
                     </div>
                     <div class="row">
-                        <aside class="col-md-2">
+                        <aside class="col-md-2 pb-4">
                             <nav class="nav nav-pills flex-column nav-cardapio">
-                                <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="nav-link fw-bold text-start text-colored active">
-                                    Bebidas Não Alcoolicas
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#oculos" class="nav-link fw-bold text-start text-colored active">
+                                    Óculos
                                 </button>
-                                <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="nav-link fw-bold text-start text-colored">
-                                    Bebidas Alcoolicas
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#relogios" class="nav-link fw-bold text-start text-colored">
+                                    Relógios
                                 </button>
-                                <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="nav-link fw-bold text-start text-colored">
-                                    Entradas
-                                </button>
-                                <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="nav-link fw-bold text-start text-colored">
-                                    Pratos Principais
-                                </button>
-                                <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="nav-link fw-bold text-start text-colored">
-                                    Sobremesas
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#brincos" class="nav-link fw-bold text-start text-colored">
+                                    Brincos
                                 </button>
                             </nav>
                         </aside>
                         <div class="col-md-10">
                             <div class="tab-content">
-                                <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="tab-pane active" id="oculos">
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/coca-cola.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Coca-cola">
-                                            <h5 class="text-colored fw-bold">Coca-cola</h5>
-                                            <p>
+                                            <img src="resources/images/oculos/1.png" height="300px" class="object-fit-cover object-top d-block w-100 rounded mb-4" alt="Óculos modelo B4">
+                                            <h5 class="fw-bold">Óculos <span class="fs-6 fw-light  text-colored fst-italic">#B4</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/suco.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Suco">
-                                            <h5 class="text-colored fw-bold">Suco</h5>
-                                            <p>
+                                            <img src="resources/images/oculos/o1.png" height="300px" class="object-fit-cover object-top d-block w-100 rounded mb-4" alt="Óculos modelo B6">
+                                            <h5 class="fw-bold">Óculos <span class="fs-6 fw-light  text-colored fst-italic">#B6</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/coca-cola.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Coca-cola">
-                                            <h5 class="text-colored fw-bold">Coca-cola</h5>
-                                            <p>
+                                            <img src="resources/images/oculos/3.png" height="300px" class="object-fit-cover object-top d-block w-100 rounded mb-4" alt="Óculos modelo E5">
+                                            <h5 class="fw-bold">Óculos <span class="fs-6 fw-light text-colored fst-italic">#E5</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/suco.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Suco">
-                                            <h5 class="text-colored fw-bold"Suco</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/coca-cola.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Coca-cola">
-                                            <h5 class="text-colored fw-bold">Coca-cola</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/suco.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Suco">
-                                            <h5 class="text-colored fw-bold">Suco</h5>
-                                            <p>
+                                            <img src="resources/images/oculos/o3.png" height="300px" class="object-fit-cover object-top d-block w-100 rounded mb-4" alt="Óculos modelo C6">
+                                            <h5 class="fw-bold">Óculos <span class="fs-6 fw-light  text-colored fst-italic">#C6</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="tab-pane" id="relogios">
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/cerveja.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Cerveja">
-                                            <h5 class="text-colored fw-bold">Cerveja</h5>
-                                            <p>
+                                            <img src="resources/images/relogios/r1.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Relógio Modelo H19">
+                                            <h5 class="fw-bold">Relógio <span class="fs-6 fw-light  text-colored fst-italic">#H19</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/bebidas/vinho.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Vinho">
-                                            <h5 class="text-colored fw-bold">Vinho</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="tab-pane" id="entradas">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/entradas/entrada.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Entrada">
-                                            <h5 class="text-colored fw-bold">Nome da Entrada</h5>
-                                            <p>
+                                            <img src="resources/images/relogios/r2.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Relógio Modelo 14BIS">
+                                            <h5 class="fw-bold">Relógio <span class="fs-6 fw-light  text-colored fst-italic">#14BIS</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/entradas/entrada.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Entrada">
-                                            <h5 class="text-colored fw-bold">Nome da Entrada</h5>
-                                            <p>
+                                            <img src="resources/images/relogios/r3.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Relógio Modelo 7H">
+                                            <h5 class="fw-bold">Relógio <span class="fs-6 fw-light  text-colored fst-italic">#7H</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/entradas/entrada.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Entrada">
-                                            <h5 class="text-colored fw-bold">Nome da Entrada</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/entradas/entrada.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Entrada">
-                                            <h5 class="text-colored fw-bold">Nome da Entrada</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                <div class="tab-pane" id="pratos-principais">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/pratos/pizza.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Pizza">
-                                            <h5 class="text-colored fw-bold">Pizza</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/pratos/salmao.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Salmão">
-                                            <h5 class="text-colored fw-bold">Salmão</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/pratos/pizza.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Pizza">
-                                            <h5 class="text-colored fw-bold">Pizza</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/pratos/salmao.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Salmão">
-                                            <h5 class="text-colored fw-bold">Salmão</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/pratos/pizza.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Pizza">
-                                            <h5 class="text-colored fw-bold">Pizza</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <img src="resources/images/cardapio/pratos/salmao.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Salmão">
-                                            <h5 class="text-colored fw-bold">Salmão</h5>
-                                            <p>
+                                            <img src="resources/images/relogios/r4.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Relógio Modelo 19K">
+                                            <h5 class="fw-bold">Relógio <span class="fs-6 fw-light  text-colored fst-italic">#19K</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane" id="sobremesas">
+                                <div class="tab-pane" id="brincos">
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/sobremesas/bolo.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Bolo">
-                                            <h5 class="text-colored fw-bold">Bolo</h5>
-                                            <p>
+                                            <img src="resources/images/brincos/1.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Brinco B13">
+                                            <h5 class="fw-bold">Brinco <span class="fs-6 fw-light  text-colored fst-italic">#B13</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/sobremesas/cupcake.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Cupcake">
-                                            <h5 class="text-colored fw-bold">Cupcake</h5>
-                                            <p>
+                                            <img src="resources/images/brincos/2.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Brinco H9">
+                                            <h5 class="fw-bold">Brinco <span class="fs-6 fw-light  text-colored fst-italic">#H9</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/sobremesas/bolo.jpg" height="160px" class="object-fit-cover d-block w-100 rounded" alt="Bolo">
-                                            <h5 class="text-colored fw-bold">Bolo</h5>
-                                            <p>
+                                            <img src="resources/images/brincos/3.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Brinco T13">
+                                            <h5 class="fw-bold">Brinco <span class="fs-6 fw-light  text-colored fst-italic">#T13</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="resources/images/cardapio/sobremesas/cupcake.jpg" height="160px" class="d-block w-100 rounded" alt="Cupcake">
-                                            <h5 class="text-colored fw-bold">Cupcake</h5>
-                                            <p>
+                                            <img src="resources/images/brincos/4.png" height="300px" class="object-fit-cover object-bottom d-block w-100 rounded mb-4" alt="Brinco MCU">
+                                            <h5 class="fw-bold">Brinco <span class="fs-6 fw-light  text-colored fst-italic">#MCU</span></h5>
+                                            <p class="opacity-75">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                             </p>
                                         </div>
@@ -357,10 +272,10 @@
                     </div>
                 </div>
             </section>
-            <section id="contato" class="py-5">
+            <section id="pedidos" class="py-5">
                 <div class="container">
                     <div class="row">
-                        <h2 class="section-title text-center">False <span class="text-colored">conosco</span></h2>
+                        <h2 class="section-title text-center">Faça seu <span class="text-colored">Orçamento</span></h2>
                     </div>
                     <div class="row">
                         <div class="col-md-7">

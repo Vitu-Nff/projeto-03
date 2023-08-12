@@ -3,50 +3,92 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #fff;
+    color: #fffcf8;
+    background-color: #0f0a00;
+    font-weight: 300;
+}
+
+#artigos img {
+    transition: scale 0.3s ease-in-out;
+    &:hover {
+        scale: 1.025
+    }
+}
+
+#pedidos input,
+#pedidos textarea {
+    background-color: #000000;
+    color: #fffcf8;
+}
+
+#sobre, #artigos {
+    background-color: #000000;
+}
+
+.object-bottom {
+    object-position: bottom;
+}
+
+.object-top {
+    object-position: top;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+.border-white  {
+    border-top: solid 0.5px white;
+    border-bottom: solid 0.5px white;
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #000000;
+    border-bottom: solid 1px #fffcf8;
 }
 
 #cabecalho .nav .nav-link.active {
-background-color: #fff;
-color: #e15f41;
+    background-color: transparent;
 }
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
-    color: #fff
+    color: #fff;
+    font-weight: 300;
 }
 
 .navbar-toggler {
-    background-color: #fff1ee;
+    background-color: none;
+    filter: invert();
+    border: none;
 }
 
 .section-title {
-    font-family: 'Pacifico', cursive;
-}
-
-
-#sobre, #cardapio {
-    background: #fff1ee;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 0.75rem;
 }
 
 .text-colored {
-    color: #e15f41;
+    color: #ffe6c1;
+    font-weight: 600;
 }
 
 .nav-cardapio .nav-link.active,
-#contato button {
-    background-color: #e15f41;
+#pedidos button {
+    border: solid 1px white;
+    background-color: transparent;
     color: #fff;
+    font-weight: 300;
+    &:hover {
+        background-color: #ffffff1e;
+        font-weight: 500;
+    }
 }
 
 .nav-cardapio .nav-link:hover:not(.active) {
-    color: #e15f41;
+    color: #ffe6c1;
 }
 
 .social-links li {
